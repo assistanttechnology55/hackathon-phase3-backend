@@ -1,0 +1,8 @@
+# Railway Configuration
+# This tells Railway where your backend code is
+
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
