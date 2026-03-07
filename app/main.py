@@ -30,7 +30,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:3001",
-        "https://your-frontend.vercel.app",
+    "https://hackathon2-phase-3-frontend.vercel.app",
+    "https://hackathon-phase3-backend-production.up.railway.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
